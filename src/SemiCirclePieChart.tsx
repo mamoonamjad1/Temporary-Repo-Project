@@ -52,7 +52,7 @@ const SemiCirclePieChart: React.FC<SemiCirclePieChartProps> = ({
     },
     colors: colors,
     tooltip: {
-      pointFormat: "{series.name}: <b>{point.percentage:.1f}%</b>",
+      pointFormat: "{series.name}: <b>{point.percentage:.0f}%</b>",
     },
     legend: {
       enabled: true,
@@ -66,7 +66,7 @@ const SemiCirclePieChart: React.FC<SemiCirclePieChartProps> = ({
       pie: {
         dataLabels: {
           enabled: true,
-          format: "{point.percentage:.1f}%",
+          format: "{point.percentage:.0f}%",
           distance: -20,
           style: {
             color: "black",

@@ -48,7 +48,7 @@ export const Base: Story = {
       { levelName: 'Sprouts', count: 4 },
     ],
     graphHeading: 'Dev Goals',
-    title: `Recommended Leves <br> BUDS`,
+    title: `Recommended Levels <br> BUDS`,
     colors: ["#FFC0CB", "#FF69B4", "#FF1493"],
     // Default legend configuration
     legendAlign: 'left',
